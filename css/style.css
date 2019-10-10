@@ -7,7 +7,7 @@ h1 {
   text-align: center; }
 
 body {
-  margin-top: 56px; }
+  margin-top: 50px; }
 
 #showcase {
   position: relative;
@@ -83,3 +83,38 @@ body {
   color: rgba(211, 211, 211, 0.747); }
 #main-footer .copy-right {
   font-size: 10px; }
+
+@media (max-width: 768px) {
+  #main-nav .font-custom {
+    font-size: 14px; }
+  #main-nav img {
+    width: 30px;
+    height: 20px; }
+  #main-nav .navbar-toggler-icon {
+    width: 30px;
+    height: 20px;
+    align-self: center; }
+  #main-nav .navbar-toggler {
+    width: 40px;
+    height: 30px; }
+
+  #showcase {
+    min-height: 500px;
+    margin-right: 0px; }
+    #showcase h1 {
+      font-size: 3rem; }
+    #showcase .center {
+      font-size: 1rem; }
+
+  #body-lower .card {
+    max-width: 80%; }
+  #body-lower .card-body, #body-lower .card-text, #body-lower .btn {
+    font-size: 0.5rem; }
+
+  #card-2 .fas {
+    font-size: 1.5rem; }
+  #card-2 .far {
+    font-size: 1.5rem; } }
+@media (min-width: 996px) {
+  #main-nav .form-inline {
+    box-sizing: inherit; } }
