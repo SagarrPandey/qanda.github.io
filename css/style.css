@@ -90,13 +90,6 @@ body {
   #main-nav img {
     width: 30px;
     height: 20px; }
-  #main-nav .navbar-toggler-icon {
-    width: 30px;
-    height: 20px;
-    align-self: center; }
-  #main-nav .navbar-toggler {
-    width: 40px;
-    height: 30px; }
 
   #showcase {
     min-height: 550px;
