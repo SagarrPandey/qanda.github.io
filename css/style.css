@@ -7,7 +7,7 @@ h1 {
   text-align: center; }
 
 body {
-  margin-top: 50px; }
+  margin-top: 45px; }
 
 #showcase {
   position: relative;
@@ -99,7 +99,7 @@ body {
     height: 30px; }
 
   #showcase {
-    min-height: 500px;
+    min-height: 550px;
     margin-right: 0px; }
     #showcase h1 {
       font-size: 3rem; }
