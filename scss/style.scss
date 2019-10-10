@@ -162,6 +162,11 @@ body {
             font-size: 1.5rem;
         }
     }
+    #row2 ,#row1{
+        .card{
+            margin-inline-start: 2.5rem;
+        }
+    }
 }
 
 @media(min-width: 996px){
